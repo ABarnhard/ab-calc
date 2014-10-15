@@ -7,12 +7,16 @@
   <author email="admbarn@gmail.com" href="http://adambarnhard.com/">
       Adam Barnhard
     </author>
-  <content src="http://192.168.56.1:5502" original-src="index.html"/>
+  <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
+
+  <preference name="SplashScreen" value="screen" />
+  <preference name="SplashScreenDelay" value="3000" />
+
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
